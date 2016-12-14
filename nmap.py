@@ -1,10 +1,3 @@
-import matplotlib.pyplot as plt
-import numpy as np
-import math
-
-from lib.ease import *
-
-
 def nmap(a, b, c, d, curvefn=None, normfn=None):
     """
     Returns a function that maps a number n from range (a, b) onto a range
