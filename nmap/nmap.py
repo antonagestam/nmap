@@ -8,7 +8,7 @@ def nmap(a, b, c, d, curvefn=None, normfn=None):
         curvefn = lambda x: x
 
     def map(n):
-        r = (n - a) / (b - a)
+        r = 1.0 * (n - a) / (b - a)
         out = curvefn(r) * (d - c) + c
         if not normfn:
             return out
