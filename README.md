@@ -33,8 +33,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 
-from .ease import *
-from .nmap import nmap
+from ease import *
+from nmap import nmap
 
 x = np.linspace(0, 1)
 yaxis = (np.linspace(0, 0), np.linspace(-10, 10))
