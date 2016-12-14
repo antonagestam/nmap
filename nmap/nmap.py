@@ -14,3 +14,11 @@ def nmap(a, b, c, d, curvefn=None, normfn=None):
             return out
         return normfn(out)
     return map
+
+
+if __name__ == '__main__':
+    mapfn = nmap(0, 100, 500, 1000)
+    assert mapfn(0) == 500
+    assert mapfn(100) == 1000
+    assert mapfn(50) == 750
+    print('done')
