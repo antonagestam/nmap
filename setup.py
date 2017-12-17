@@ -13,8 +13,6 @@ setup(
     url='https://github.com/antonagestam/nmap/',
     license='MIT License',
     classifiers=[
-        'Development Status :: 4 - Beta',
-        'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3.5',
